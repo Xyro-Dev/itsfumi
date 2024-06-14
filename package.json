@@ -1,7 +1,7 @@
 {
-  "name": "vercel",
+  "name": "docs",
   "version": "1.0.0",
-  "description": "hy",
+  "description": "docs for xyro",
   "main": "index.js",
   "engines": {
     "node": "20.x"
@@ -14,9 +14,7 @@
   "author": "y",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.6.8",
-    "cors": "^2.8.5",
     "express": "^4.19.2",
-    "express-rate-limit": "^5.3.0"
-    
+    "path": "^0.12.7"
+  }
 }
