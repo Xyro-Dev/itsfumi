@@ -15,6 +15,9 @@ app.get("/playground", (req, res) => {
   res.sendFile(path.join(__dirname, "animepict.html")); 
 });
 
+app.get("/upload", (req, res) => {
+  res.sendFile(path.join(__dirname, "upload.html")); 
+});
 
 app.listen(3000, () => {
   console.log('Server started on port 3000');
