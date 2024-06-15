@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Uploader using express.js by Im-Dims">
-    <title>Website Uploader</title>
+    <meta name="description" content="ふみアップローダー with SSA">
+    <link rel="shortcut icon" type="image/x-icon" href="https://telegra.ph/file/dba9056d5557f603e9c84.jpg"> 
+  
+  <meta property="og:image" content="https://telegra.ph/file/398f297734642557fa2a9.jpg">
+    <title>ふみアップローダー</title>
     <style>
         body {
     font-family: 'Roboto', sans-serif;
@@ -145,14 +148,14 @@
 <body>
     <div class="teks">単一アップローダー</div>
 
-    <form action="/upload" method="POST" enctype="multipart/form-data">
+    <form action="https://upload.ssateam.my.id/upload" method="POST" enctype="multipart/form-data">
         <label for="file">Select File:</label>
         <input type="file" name="file" id="file">
         <button onclick="uploadSingleFile()" class="button">Upload</button>
     </form>
 
     <div class="teks">マルチアップローダー</div>
-    <form action="/multi-upload" method="POST" enctype="multipart/form-data">
+    <form action="https://upload.ssateam.my.id/multi-upload" method="POST" enctype="multipart/form-data">
         <label for="files">Select Picture:</label>
         <input type="file" name="files" id="files" multiple>
         <button onclick="uploadSingleFile()" class="button">Upload</button>
